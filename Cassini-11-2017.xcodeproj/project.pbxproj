@@ -13,6 +13,7 @@
 		B11ECA442020B7E40021D2E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11ECA422020B7E40021D2E5 /* LaunchScreen.storyboard */; };
 		B11ECA4D2020B8FB0021D2E5 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ECA4C2020B8FB0021D2E5 /* ImageViewController.swift */; };
 		B11ECA4F2020CECB0021D2E5 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ECA4E2020CECB0021D2E5 /* DemoURLs.swift */; };
+		B11ECA512020F8840021D2E5 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ECA502020F8840021D2E5 /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B11ECA452020B7E40021D2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B11ECA4C2020B8FB0021D2E5 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		B11ECA4E2020CECB0021D2E5 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		B11ECA502020F8840021D2E5 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B11ECA4C2020B8FB0021D2E5 /* ImageViewController.swift */,
 				B11ECA3D2020B7E40021D2E5 /* Main.storyboard */,
+				B11ECA502020F8840021D2E5 /* CassiniViewController.swift */,
 				B11ECA4E2020CECB0021D2E5 /* DemoURLs.swift */,
 				B11ECA4B2020B81B0021D2E5 /* Supporting Files */,
 				B11ECA452020B7E40021D2E5 /* Info.plist */,
@@ -150,6 +153,7 @@
 				B11ECA4D2020B8FB0021D2E5 /* ImageViewController.swift in Sources */,
 				B11ECA3A2020B7E40021D2E5 /* AppDelegate.swift in Sources */,
 				B11ECA4F2020CECB0021D2E5 /* DemoURLs.swift in Sources */,
+				B11ECA512020F8840021D2E5 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
