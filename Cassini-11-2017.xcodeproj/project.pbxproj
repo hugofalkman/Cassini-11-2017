@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B11ECA3A2020B7E40021D2E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ECA392020B7E40021D2E5 /* AppDelegate.swift */; };
-		B11ECA3C2020B7E40021D2E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ECA3B2020B7E40021D2E5 /* ViewController.swift */; };
 		B11ECA3F2020B7E40021D2E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11ECA3D2020B7E40021D2E5 /* Main.storyboard */; };
 		B11ECA412020B7E40021D2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11ECA402020B7E40021D2E5 /* Assets.xcassets */; };
 		B11ECA442020B7E40021D2E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11ECA422020B7E40021D2E5 /* LaunchScreen.storyboard */; };
+		B11ECA4D2020B8FB0021D2E5 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ECA4C2020B8FB0021D2E5 /* ImageViewController.swift */; };
+		B11ECA4F2020CECB0021D2E5 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11ECA4E2020CECB0021D2E5 /* DemoURLs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B11ECA362020B7E40021D2E5 /* Cassini-11-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cassini-11-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11ECA392020B7E40021D2E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B11ECA3B2020B7E40021D2E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B11ECA3E2020B7E40021D2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B11ECA402020B7E40021D2E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11ECA432020B7E40021D2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B11ECA452020B7E40021D2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11ECA4C2020B8FB0021D2E5 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B11ECA4E2020CECB0021D2E5 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		B11ECA382020B7E40021D2E5 /* Cassini-11-2017 */ = {
 			isa = PBXGroup;
 			children = (
-				B11ECA392020B7E40021D2E5 /* AppDelegate.swift */,
-				B11ECA3B2020B7E40021D2E5 /* ViewController.swift */,
+				B11ECA4C2020B8FB0021D2E5 /* ImageViewController.swift */,
 				B11ECA3D2020B7E40021D2E5 /* Main.storyboard */,
-				B11ECA402020B7E40021D2E5 /* Assets.xcassets */,
-				B11ECA422020B7E40021D2E5 /* LaunchScreen.storyboard */,
+				B11ECA4E2020CECB0021D2E5 /* DemoURLs.swift */,
+				B11ECA4B2020B81B0021D2E5 /* Supporting Files */,
 				B11ECA452020B7E40021D2E5 /* Info.plist */,
 			);
 			path = "Cassini-11-2017";
+			sourceTree = "<group>";
+		};
+		B11ECA4B2020B81B0021D2E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11ECA392020B7E40021D2E5 /* AppDelegate.swift */,
+				B11ECA402020B7E40021D2E5 /* Assets.xcassets */,
+				B11ECA422020B7E40021D2E5 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11ECA3C2020B7E40021D2E5 /* ViewController.swift in Sources */,
+				B11ECA4D2020B8FB0021D2E5 /* ImageViewController.swift in Sources */,
 				B11ECA3A2020B7E40021D2E5 /* AppDelegate.swift in Sources */,
+				B11ECA4F2020CECB0021D2E5 /* DemoURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
